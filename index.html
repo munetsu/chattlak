@@ -5,17 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chattalk</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-    <div>
-        <div class="left"></div>
+    <div class="body">
+        <div class="left">
+            <div class="room"></div>
+            <div class="dm"></div>
+        </div>
         <div class="right">
-            <div class="headerfield"></div>
-            <div class="talkfield"></div>
-            <div class="inputfield"></div>
+            <div class="headerfield">
+                <div class="talkname">あ</div>
+                <div class="account">
+                    <a href="" class="logout">ログアウト</a>
+                </div>
+            </div>
+            <div class="talkfield">
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+
+                い<br>
+                い<br>
+                い<br>
+                い<br>
+
+                い<br>
+                い<br>
+                い<br>
+
+            </div>
+            <div class="inputfield">
+                <textarea name="text" id="text" class="text" rows="1" placeholder="テキスト入力"></textarea>
+                <div class="submitBtn">
+                    <button id="btn" class="submit">送信</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script src="firebase.js"></script>
 <script src="js/index.js"></script>
 </html>
